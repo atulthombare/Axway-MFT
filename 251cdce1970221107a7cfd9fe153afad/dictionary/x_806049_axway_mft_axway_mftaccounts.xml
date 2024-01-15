@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="2c20a8e5970221107a7cfd9fe153af27" label="axway_mftaccounts" max_length="40" name="x_806049_axway_mft_axway_mftaccounts" type="collection">
+        <element label="Address" max_length="60" name="address" type="string"/>
+        <element choice="3" label="Authentication Type" max_length="40" name="authentication_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Password" sequence="0" value="password"/>
+                <element inactive_on_update="false" label="Key/Certificate" sequence="1" value="key_certificate"/>
+                <element inactive_on_update="false" label="Both" sequence="2" value="both"/>
+            </choice>
+        </element>
+        <element choice="1" label="Business Unit" max_length="40" name="business_unit" type="choice">
+            <choice>
+                <element inactive_on_update="false"/>
+                <element inactive_on_update="false"/>
+                <element inactive_on_update="false"/>
+                <element inactive_on_update="false"/>
+                <element inactive_on_update="false"/>
+                <element inactive_on_update="false"/>
+                <element inactive_on_update="false"/>
+                <element inactive_on_update="false"/>
+                <element inactive="true" inactive_on_update="true" label="Acme" value="Acme"/>
+                <element inactive="true" inactive_on_update="true" label="Adhoc" value="Adhoc"/>
+                <element inactive="true" inactive_on_update="true" label="Axway" value="Axway"/>
+                <element inactive_on_update="false" label="B2B" value="B2B"/>
+                <element inactive="true" inactive_on_update="true" label="BigCo" value="BigCo"/>
+                <element inactive="true" inactive_on_update="true" label="BNC_accounting" value="BNC_accounting"/>
+                <element inactive="true" inactive_on_update="true" label="Business" value="Business"/>
+                <element inactive="true" inactive_on_update="true" label="Centene" value="Centene"/>
+                <element inactive="true" inactive_on_update="true" label="CentralGovernanceBusinessUnit" value="CentralGovernanceBusinessUnit"/>
+                <element inactive="true" inactive_on_update="true" label="Commercial" value="Commercial"/>
+                <element inactive="true" inactive_on_update="true" label="CommercialSoln" value="CommercialSoln"/>
+                <element inactive="true" inactive_on_update="true" label="CostCut" value="CostCut"/>
+                <element inactive="true" inactive_on_update="true" label="County of Santa Barbara" value="County of Santa Barbara"/>
+                <element inactive="true" inactive_on_update="true" label="CSX Corp" value="CSX Corp"/>
+                <element inactive="true" inactive_on_update="true" label="CSX Intermodal Terminals" value="CSX Intermodal Terminals"/>
+                <element inactive="true" inactive_on_update="true" label="CSX Technology" value="CSX Technology"/>
+                <element inactive="true" inactive_on_update="true" label="CSX Total Distribution Services" value="CSX Total Distribution Services"/>
+                <element inactive="true" inactive_on_update="true" label="CSX Transflo" value="CSX Transflo"/>
+                <element inactive="true" inactive_on_update="true" label="CSX Transportation" value="CSX Transportation"/>
+                <element inactive_on_update="false" label="CTFS" value="CTFS"/>
+                <element inactive_on_update="false" label="CTS" value="CTS"/>
+                <element inactive="true" inactive_on_update="true" label="Deluxe" value="Deluxe"/>
+                <element inactive="true" inactive_on_update="true" label="District Attorney" value="District Attorney"/>
+                <element inactive_on_update="false" label="DIT" value="DIT"/>
+                <element inactive="true" inactive_on_update="true" label="EnergyOne" value="EnergyOne"/>
+                <element inactive_on_update="false" label="ETG" value="ETG"/>
+                <element inactive="true" inactive_on_update="true" label="External" value="External"/>
+                <element inactive="true" inactive_on_update="true" label="Finance" value="Finance"/>
+                <element inactive="true" inactive_on_update="true" label="Fiserv" value="Fiserv"/>
+                <element inactive="true" inactive_on_update="true" label="Flagstar" value="Flagstar"/>
+                <element inactive="true" inactive_on_update="true" label="FlowManagerBusinessUnit" value="FlowManagerBusinessUnit"/>
+                <element inactive="true" inactive_on_update="true" label="FlyingGreen" value="FlyingGreen"/>
+                <element inactive="true" inactive_on_update="true" label="FMFCU" value="FMFCU"/>
+                <element inactive="true" inactive_on_update="true" label="General Services" value="General Services"/>
+                <element inactive="true" inactive_on_update="true" label="Globex" value="Globex"/>
+                <element inactive="true" inactive_on_update="true" label="hershey" value="hershey"/>
+                <element inactive="true" inactive_on_update="true" label="Hooli" value="Hooli"/>
+                <element inactive_on_update="false" label="HR" value="HR"/>
+                <element inactive="true" inactive_on_update="true" label="Human Resources" value="Human Resources"/>
+                <element inactive="true" inactive_on_update="true" label="Huntington" value="Huntington"/>
+                <element inactive="true" inactive_on_update="true" label="Initech" value="Initech"/>
+                <element inactive="true" inactive_on_update="true" label="Internal" value="Internal"/>
+                <element inactive_on_update="false" label="IT" value="IT"/>
+                <element inactive="true" inactive_on_update="true" label="JEEZ" value="JEEZ"/>
+                <element inactive="true" inactive_on_update="true" label="KrustyKrab" value="KrustyKrab"/>
+                <element inactive="true" inactive_on_update="true" label="LagalTeam" value="LagalTeam"/>
+                <element inactive="true" inactive_on_update="true" label="LamResearch" value="LamResearch"/>
+                <element inactive_on_update="false" label="Legal" value="Legal"/>
+                <element inactive="true" inactive_on_update="true" label="LegalDept" value="LegalDept"/>
+                <element inactive="true" inactive_on_update="true" label="LuckyCorp" value="LuckyCorp"/>
+                <element inactive="true" inactive_on_update="true" label="Manager" value="Manager"/>
+                <element inactive_on_update="false" label="Marketing" value="Marketing"/>
+                <element inactive="true" inactive_on_update="true" label="MFT" value="MFT"/>
+                <element inactive="true" inactive_on_update="true" label="MyBank" value="MyBank"/>
+                <element inactive="true" inactive_on_update="true" label="NBC" value="NBC"/>
+                <element inactive="true" inactive_on_update="true" label="Newbie" value="Newbie"/>
+                <element inactive_on_update="false" label="Norcross" value="Norcross"/>
+                <element inactive="true" inactive_on_update="true" label="NYCB" value="NYCB"/>
+                <element inactive="true" inactive_on_update="true" label="Personal" value="Personal"/>
+                <element inactive_on_update="false" label="PrepaidSunrise" value="PrepaidSunrise"/>
+                <element inactive="true" inactive_on_update="true" label="Quality" value="Quality"/>
+                <element inactive="true" inactive_on_update="true" label="Quality Carriers" value="Quality Carriers"/>
+                <element inactive="true" inactive_on_update="true" label="Research" value="Research"/>
+                <element inactive_on_update="false" label="Sales" value="Sales"/>
+                <element inactive="true" inactive_on_update="true" label="SFN" value="SFN"/>
+                <element inactive="true" inactive_on_update="true" label="Signature" value="Signature"/>
+                <element inactive="true" inactive_on_update="true" label="Social Services" value="Social Services"/>
+                <element inactive="true" inactive_on_update="true" label="Support" value="Support"/>
+                <element inactive="true" inactive_on_update="true" label="Training" value="Training"/>
+                <element inactive="true" inactive_on_update="true" label="Treasury" value="Treasury"/>
+                <element inactive="true" inactive_on_update="true" label="UHC" value="UHC"/>
+                <element inactive="true" inactive_on_update="true" label="Boehringer" sequence="0" value="Boehringer"/>
+                <element inactive="true" inactive_on_update="true" label="AnimalHealth" sequence="1" value="AnimalHealth"/>
+                <element inactive="true" inactive_on_update="true" label="BiopharmaCMO" sequence="2" value="BiopharmaCMO"/>
+                <element inactive="true" inactive_on_update="true" label="HumanHealth" sequence="3" value="HumanHealth"/>
+                <element inactive="true" inactive_on_update="true" label="ClinicalTrial" sequence="4" value="ClinicalTrial"/>
+                <element inactive="true" inactive_on_update="true" label="R&amp;D" sequence="5" value="R&amp;D"/>
+                <element inactive="true" inactive_on_update="true" label="Payroll" sequence="6" value="Payroll"/>
+            </choice>
+        </element>
+        <element choice="3" label="Communication Profile" max_length="40" name="communication_profile" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Client" sequence="0" value="client"/>
+                <element inactive_on_update="false" label="Server" sequence="1" value="server"/>
+                <element inactive_on_update="false" label="Both" sequence="2" value="both"/>
+            </choice>
+        </element>
+        <element label="Decryption Certificate" max_length="2500" name="decryption_certificate" type="string"/>
+        <element label="Email Contact" max_length="50" name="email_contact" type="string"/>
+        <element label="Encryption Certificate" max_length="5000" name="encryption_certificate" type="string"/>
+        <element label="Login Certificate" max_length="500" name="login_certificate" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:getNextObjNumber();" dynamic_default_value="8acb83a85f220100a9ad2572f2b47741" label="Number" max_length="40" name="number" read_only="true" type="string" use_dynamic_default="true"/>
+        <element display="true" label="Partner Name" mandatory="true" max_length="40" name="partner_name" type="string"/>
+        <element label="Password" max_length="40" name="password" type="string"/>
+        <element label="Phone Contact" max_length="40" name="phone_contact" type="phone_number_e164"/>
+        <element choice="3" label="Priority" max_length="40" name="priority" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="4-Low" sequence="0" value="low"/>
+                <element inactive_on_update="false" label="3-Moderate" sequence="1" value="moderate"/>
+                <element inactive_on_update="false" label="2-High" sequence="2" value="high"/>
+                <element inactive_on_update="false" label="1-Critical" sequence="3" value="critical"/>
+            </choice>
+        </element>
+        <element choice="3" label="Protocol" max_length="40" name="protocol" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="FTP" sequence="0" value="ftp"/>
+                <element inactive_on_update="false" label="SSH" sequence="1" value="ssh"/>
+                <element inactive_on_update="false" label="HTTP" sequence="2" value="http"/>
+                <element inactive_on_update="false" label="PeSIT" sequence="3" value="pesit"/>
+            </choice>
+        </element>
+        <element choice="3" label="Remote Authentication Type" max_length="40" name="remote_authentication_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Password" sequence="0" value="password"/>
+                <element inactive_on_update="false" label="Key/Certificate" sequence="1" value="key_certificate"/>
+                <element inactive_on_update="false" label="Both" sequence="2" value="both"/>
+            </choice>
+        </element>
+        <element label="Remote Download Path" max_length="40" name="remote_download_path" type="string"/>
+        <element label="Remote Password" max_length="40" name="remote_password" type="string"/>
+        <element label="Remote Port" max_length="40" name="remote_port" type="integer"/>
+        <element choice="3" label="Remote Protocol" max_length="40" name="remote_protocol" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="AS2" sequence="0" value="as2"/>
+                <element inactive_on_update="false" label="FTP(S)" sequence="1" value="ftp_s"/>
+                <element inactive_on_update="false" label="HTTP(S)" sequence="2" value="http_s"/>
+                <element inactive_on_update="false" label="SSH" sequence="3" value="ssh"/>
+                <element inactive_on_update="false" label="PeSIT" sequence="4" value="pesit"/>
+                <element inactive_on_update="false" label="Folder Monitor" sequence="5" value="folder_monitor"/>
+                <element inactive_on_update="false" label="System To Human" sequence="6" value="system_to_human"/>
+                <element inactive_on_update="false" label="Azure Blob Storage" sequence="7" value="azure_blob_storage"/>
+                <element inactive_on_update="false" label="SMB" sequence="8" value="smb"/>
+                <element inactive_on_update="false" label="AWS S3" sequence="9" value="aws_s3"/>
+                <element inactive_on_update="false" label="Generic-HTTP(S)" sequence="10" value="generic_http_s"/>
+                <element inactive_on_update="false" label="SharePoint" sequence="11" value="sharepoint"/>
+            </choice>
+        </element>
+        <element label="Remote Server" max_length="40" name="remote_server" type="string"/>
+        <element label="Remote Upload Path" max_length="40" name="remote_upload_path" type="string"/>
+        <element label="Remote UserID" max_length="40" name="remote_userid" type="string"/>
+        <element choice="1" label="System Certificate" max_length="40" name="system_certificate" type="choice">
+            <choice>
+                <element inactive_on_update="false"/>
+                <element inactive_on_update="false"/>
+                <element inactive_on_update="false" label="admind" value="8a01bd8b6ff21e5a016ff21e6f5b0001"/>
+                <element inactive_on_update="false" label="as2" value="50c3018a80e3d83f0180e8e4dc1800ac"/>
+                <element inactive_on_update="false" label="as2_mft" value="50c3018a88c0a4e70188e5123e49005c"/>
+                <element inactive_on_update="false" label="demo.axway.com" value="8a01bd8b701ca72101702fe05b1b0006"/>
+                <element inactive_on_update="false" label="keyCloakP12" value="50c3018a8b25268f018bd7ffab360162"/>
+                <element inactive_on_update="false" label="mdn" value="8a01bd8b701ca72101702fe4cee00010"/>
+                <element inactive_on_update="false" label="pesitd" value="8a01bd8b701ca72101702feaa39c0019"/>
+                <element inactive_on_update="false" label="protocols" value="8a01bd8b701ca72101702fe59a200013"/>
+                <element inactive_on_update="false" label="repencrypt" value="8a01bd8b701ca72101702fe5eb850016"/>
+                <element inactive_on_update="false" label="sftpkey" value="50c3018a88c0a4e70188e4f5cba30052"/>
+                <element inactive_on_update="false" label="sshkey" value="50c3018a88c0a4e70188e4f433bd004e"/>
+                <element inactive_on_update="false" label="ssokey" value="50c3018a88c0a4e7018940e63d5400e1"/>
+                <element inactive="true" inactive_on_update="true" label="ssokey" value="50c3018a80bf064b0180d94255040034"/>
+                <element inactive="true" inactive_on_update="true" label="as2" sequence="0" value="as2"/>
+                <element inactive="true" inactive_on_update="true" label="ssh" sequence="1" value="protocols"/>
+            </choice>
+        </element>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
+        <element choice="3" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Unspecified" sequence="0" value="N"/>
+                <element inactive_on_update="false" label="Partner" sequence="1" value="E"/>
+                <element inactive_on_update="false" label="Internal" sequence="2" value="I"/>
+            </choice>
+        </element>
+        <element label="User ID" max_length="40" name="user_id" type="string"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

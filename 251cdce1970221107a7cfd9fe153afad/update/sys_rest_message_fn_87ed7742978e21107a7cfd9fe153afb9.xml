@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="INSERT_OR_UPDATE">
+        <authentication_type>inherit_from_parent</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <content/>
+        <function_name>Default GET</function_name>
+        <http_method>get</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>axwayMFT_partners [ Default GET ]</qualified_name>
+        <rest_endpoint>https://208.67.129.10:8444/api/v2.0/accounts</rest_endpoint>
+        <rest_message display_value="axwayMFT_partners">234d3f02978e21107a7cfd9fe153af94</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-08 21:48:12</sys_created_on>
+        <sys_id>87ed7742978e21107a7cfd9fe153afb9</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Default GET</sys_name>
+        <sys_package display_value="Axway MFT" source="x_806049_axway_mft">251cdce1970221107a7cfd9fe153afad</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Axway MFT">251cdce1970221107a7cfd9fe153afad</sys_scope>
+        <sys_update_name>sys_rest_message_fn_87ed7742978e21107a7cfd9fe153afb9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-08 21:59:29</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+</record_update>

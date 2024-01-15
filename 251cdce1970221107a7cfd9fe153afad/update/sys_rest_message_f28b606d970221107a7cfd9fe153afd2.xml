@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message">
+    <sys_rest_message action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <authentication_type>basic</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile display_value="axwayMFT">93bfe32447003110eeb9057d826d4317</basic_auth_profile>
+        <basic_auth_user/>
+        <description>GET request </description>
+        <name>axwayMFT_getBUs</name>
+        <oauth2_profile/>
+        <protocol_name/>
+        <rest_endpoint>https://208.67.129.10:8444/api/v2.0/businessUnits</rest_endpoint>
+        <sys_class_name>sys_rest_message</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-06 17:18:16</sys_created_on>
+        <sys_id>f28b606d970221107a7cfd9fe153afd2</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>axwayMFT_getBUs</sys_name>
+        <sys_package display_value="Axway MFT" source="x_806049_axway_mft">251cdce1970221107a7cfd9fe153afad</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Axway MFT">251cdce1970221107a7cfd9fe153afad</sys_scope>
+        <sys_update_name>sys_rest_message_f28b606d970221107a7cfd9fe153afd2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-12 15:01:17</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message>
+</record_update>

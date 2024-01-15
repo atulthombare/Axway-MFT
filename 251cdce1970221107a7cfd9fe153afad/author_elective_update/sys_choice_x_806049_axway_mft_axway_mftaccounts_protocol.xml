@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="protocol" table="x_806049_axway_mft_axway_mftaccounts" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>protocol</element>
+            <name>x_806049_axway_mft_axway_mftaccounts</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-08 06:09:11</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>protocol</sys_name>
+            <sys_package display_value="Axway MFT" source="x_806049_axway_mft">251cdce1970221107a7cfd9fe153afad</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Axway MFT">251cdce1970221107a7cfd9fe153afad</sys_scope>
+            <sys_update_name>sys_choice_x_806049_axway_mft_axway_mftaccounts_protocol</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-08 06:09:11</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>protocol</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>FTP</label>
+            <language>en</language>
+            <name>x_806049_axway_mft_axway_mftaccounts</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-08 06:09:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4007a002978221107a7cfd9fe153af7f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-08 06:09:11</sys_updated_on>
+            <value>ftp</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>protocol</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SSH</label>
+            <language>en</language>
+            <name>x_806049_axway_mft_axway_mftaccounts</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-08 06:09:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c807a002978221107a7cfd9fe153af80</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-08 06:09:11</sys_updated_on>
+            <value>ssh</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>protocol</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HTTP</label>
+            <language>en</language>
+            <name>x_806049_axway_mft_axway_mftaccounts</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-08 06:09:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4807a002978221107a7cfd9fe153af81</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-08 06:09:11</sys_updated_on>
+            <value>http</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>protocol</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>PeSIT</label>
+            <language>en</language>
+            <name>x_806049_axway_mft_axway_mftaccounts</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-08 06:09:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c407a002978221107a7cfd9fe153af82</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-08 06:09:11</sys_updated_on>
+            <value>pesit</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

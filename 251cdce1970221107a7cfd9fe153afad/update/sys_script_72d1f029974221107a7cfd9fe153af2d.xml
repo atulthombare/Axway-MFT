@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_806049_axway_mft_axway_mftaccounts</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>axwayMFT_loadValues</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+	
+	loadList ('axwayMFT_getBUs','business_unit');
+	
+//	loadList ('axwayMFT_getBUs','decryption_certificate');
+	
+//	loadList ('axwayMFT_getBUs','remote_protocol');
+	
+	loadList ('axwayMFT_getSysCerts','system_certificate');
+	
+//---------
+// loadList
+//---------
+function loadList(end_point,field_name)	{
+	var sm, response, responseBody, status, requestBody;
+	
+	try {
+		sm = new sn_ws.RESTMessageV2(end_point, 'load_bu'); //method
+		
+		response = sm.executeAsync();
+		response.waitForResponse(10);
+		responseBody = response.haveError() ? response.getErrorMessage() : response.getBody();
+		status = response.getStatusCode();
+	} catch(ex) {
+		responseBody = ex.getMessage();
+		status = '500';
+	} finally {
+		requestBody = sm ? sm.getRequestBody() : null;
+	}
+	
+	var InfoMessage = [];
+	InfoMessage.push("*** "+end_point+" HTTP status: " + status);
+	InfoMessage.push("*** "+end_point+" HTTP Response: " + responseBody);
+	InfoMessage.push("*** "+end_point+" HTTP Request Body: " + requestBody);
+	gs.info(InfoMessage.join('\n'));
+	
+	if (status != 200 && status != 201) {
+		gs.addErrorMessage("Cannot load "+end_point+":<br />"+InfoMessage.join('<br />'));
+		current.setAbortAction(true);
+	}
+	
+	var created_item = [], created_certid = [], API_list = JSON.parse(response.getBody());
+	API_list = API_list.result;
+	
+	for(var i in API_list) {
+		var key, key1;
+		if (end_point == 'axwayMFT_getBUs')
+			key = API_list[i]["name"];
+		else
+//			key = API_list[i]["name"];
+//			key1 = API_list[i]["name"]+"_"+API_list[i]["id"];
+			key = API_list[i]["id"];
+		doChoiceList(field_name,key,API_list[i]["name"]);
+		created_item.push(key);
+	}
+
+	doDeactivateItems(field_name,created_item);
+}
+
+//-------------
+// doChoiceList
+//-------------
+function doChoiceList(field, value, label) {
+	var table = 'x_806049_axway_mft_axway_mftaccounts';
+	var sys_choice = new GlideRecord('sys_choice');
+	sys_choice.addQuery('name','=',table);
+	sys_choice.addQuery('element','=',field);
+	sys_choice.addQuery('value','=',value);
+	sys_choice.query();
+	if (!sys_choice.next()) {
+		sys_choice.inactive = false;
+		sys_choice.name = 'x_806049_axway_mft_axway_mftaccounts';
+		sys_choice.element = field;
+		sys_choice.value = value;
+		sys_choice.label = label;
+		sys_choice.insert();
+	} else {
+		sys_choice.inactive = false;
+		sys_choice.label = label;
+		sys_choice.update();
+	}	
+}
+	
+//------------------
+// doDeactivateItems
+//------------------
+function doDeactivateItems(field,list) {
+	var table = 'x_806049_axway_mft_axway_mftaccounts';
+	var sys_choice = new GlideRecord('sys_choice');
+	sys_choice.addQuery('name','=',table);
+	sys_choice.addQuery('element','=',field);
+	var EncodedQuery = "value!="+list.join("^value!=");
+	sys_choice.addEncodedQuery(EncodedQuery);
+	sys_choice.query();
+	while (sys_choice.next()) {
+		sys_choice.inactive = true;
+		sys_choice.update();
+	}
+}
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-06 18:46:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>72d1f029974221107a7cfd9fe153af2d</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>axwayMFT_loadValues</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Axway MFT" source="x_806049_axway_mft">251cdce1970221107a7cfd9fe153afad</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Axway MFT">251cdce1970221107a7cfd9fe153afad</sys_scope>
+        <sys_update_name>sys_script_72d1f029974221107a7cfd9fe153af2d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-18 07:08:12</sys_updated_on>
+        <template/>
+        <when>before_display</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=72d1f029974221107a7cfd9fe153af2d"/>
+</record_update>

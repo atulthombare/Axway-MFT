@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="remote_protocol" table="x_806049_axway_mft_axway_mftaccounts" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>remote_protocol</element>
+            <name>x_806049_axway_mft_axway_mftaccounts</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-12 18:35:39</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>remote_protocol</sys_name>
+            <sys_package display_value="Axway MFT" source="x_806049_axway_mft">251cdce1970221107a7cfd9fe153afad</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Axway MFT">251cdce1970221107a7cfd9fe153afad</sys_scope>
+            <sys_update_name>sys_choice_x_806049_axway_mft_axway_mftaccounts_remote_protocol</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-12 18:35:39</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>remote_protocol</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>AS2</label>
+            <language>en</language>
+            <name>x_806049_axway_mft_axway_mftaccounts</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-12 18:35:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ad383b1b970221107a7cfd9fe153afda</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-12 18:35:39</sys_updated_on>
+            <value>as2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>remote_protocol</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>FTP(S)</label>
+            <language>en</language>
+            <name>x_806049_axway_mft_axway_mftaccounts</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-12 18:48:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>481b37db970221107a7cfd9fe153af31</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-12 18:48:07</sys_updated_on>
+            <value>ftp_s</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>remote_protocol</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HTTP(S)</label>
+            <language>en</language>
+            <name>x_806049_axway_mft_axway_mftaccounts</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-12 18:48:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c41b37db970221107a7cfd9fe153af32</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-12 18:48:07</sys_updated_on>
+            <value>http_s</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>remote_protocol</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SSH</label>
+            <language>en</language>
+            <name>x_806049_axway_mft_axway_mftaccounts</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-12 18:48:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>841b37db970221107a7cfd9fe153af8a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-12 18:48:07</sys_updated_on>
+            <value>ssh</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>remote_protocol</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>PeSIT</label>
+            <language>en</language>
+            <name>x_806049_axway_mft_axway_mftaccounts</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-12 18:48:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>041b37db970221107a7cfd9fe153af8b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-12 18:48:07</sys_updated_on>
+            <value>pesit</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>remote_protocol</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Folder Monitor</label>
+            <language>en</language>
+            <name>x_806049_axway_mft_axway_mftaccounts</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-12 18:48:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>801b37db970221107a7cfd9fe153af8c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-12 18:48:07</sys_updated_on>
+            <value>folder_monitor</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>remote_protocol</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System To Human</label>
+            <language>en</language>
+            <name>x_806049_axway_mft_axway_mftaccounts</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-12 18:48:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>001b37db970221107a7cfd9fe153af8d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-12 18:48:07</sys_updated_on>
+            <value>system_to_human</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>remote_protocol</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Azure Blob Storage</label>
+            <language>en</language>
+            <name>x_806049_axway_mft_axway_mftaccounts</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-12 18:48:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8c1b37db970221107a7cfd9fe153af8d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-12 18:48:07</sys_updated_on>
+            <value>azure_blob_storage</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>remote_protocol</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SMB</label>
+            <language>en</language>
+            <name>x_806049_axway_mft_axway_mftaccounts</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-12 18:48:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0c1b37db970221107a7cfd9fe153af8e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-12 18:48:07</sys_updated_on>
+            <value>smb</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>remote_protocol</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>AWS S3</label>
+            <language>en</language>
+            <name>x_806049_axway_mft_axway_mftaccounts</name>
+            <sequence>9</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-12 18:48:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>881b37db970221107a7cfd9fe153af8f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-12 18:48:07</sys_updated_on>
+            <value>aws_s3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>remote_protocol</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Generic-HTTP(S)</label>
+            <language>en</language>
+            <name>x_806049_axway_mft_axway_mftaccounts</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-12 18:48:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>081b37db970221107a7cfd9fe153af90</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-12 18:48:07</sys_updated_on>
+            <value>generic_http_s</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>remote_protocol</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SharePoint</label>
+            <language>en</language>
+            <name>x_806049_axway_mft_axway_mftaccounts</name>
+            <sequence>11</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-12 18:48:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>841b37db970221107a7cfd9fe153af91</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-12 18:48:07</sys_updated_on>
+            <value>sharepoint</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

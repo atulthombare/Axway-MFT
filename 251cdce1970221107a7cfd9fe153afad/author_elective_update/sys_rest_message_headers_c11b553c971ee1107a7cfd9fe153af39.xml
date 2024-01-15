@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_headers">
+    <sys_rest_message_headers action="DELETE">
+        <name>referrer</name>
+        <rest_message display_value="">7c1bd9f8971ee1107a7cfd9fe153af9f</rest_message>
+        <sys_class_name>sys_rest_message_headers</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-16 23:00:29</sys_created_on>
+        <sys_id>c11b553c971ee1107a7cfd9fe153af39</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>referrer</sys_name>
+        <sys_package display_value="Axway MFT" source="x_806049_axway_mft">251cdce1970221107a7cfd9fe153afad</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Axway MFT">251cdce1970221107a7cfd9fe153afad</sys_scope>
+        <sys_update_name>sys_rest_message_headers_c11b553c971ee1107a7cfd9fe153af39</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-16 23:00:29</sys_updated_on>
+        <value/>
+    </sys_rest_message_headers>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Axway MFT">251cdce1970221107a7cfd9fe153afad</application>
+        <file_path/>
+        <instance_id>341c5ad0dbd137809df22f17d4961973</instance_id>
+        <instance_name>dev85045</instance_name>
+        <name>sys_rest_message_headers_c11b553c971ee1107a7cfd9fe153af39</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_headers"><sys_rest_message_headers action="INSERT_OR_UPDATE"><name>referrer</name><rest_message display_value="">7c1bd9f8971ee1107a7cfd9fe153af9f</rest_message><sys_class_name>sys_rest_message_headers</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-04-16 23:00:29</sys_created_on><sys_id>c11b553c971ee1107a7cfd9fe153af39</sys_id><sys_mod_count>0</sys_mod_count><sys_name>referrer</sys_name><sys_package display_value="Axway MFT" source="x_806049_axway_mft">251cdce1970221107a7cfd9fe153afad</sys_package><sys_policy/><sys_scope display_value="Axway MFT">251cdce1970221107a7cfd9fe153afad</sys_scope><sys_update_name>sys_rest_message_headers_c11b553c971ee1107a7cfd9fe153af39</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-04-16 23:00:29</sys_updated_on><value/></sys_rest_message_headers></record_update>]]></payload>
+        <payload_hash>-1119633486</payload_hash>
+        <record_name>referrer</record_name>
+        <reverted_from/>
+        <source>a51cdce1970221107a7cfd9fe153afaf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-16 23:00:29</sys_created_on>
+        <sys_id>b32b913c971ee1107a7cfd9fe153afec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1878c4c641f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-16 23:00:29</sys_updated_on>
+        <type>HTTP Headers</type>
+        <update_guid>fb2b913cf71ee1109f58d374e1e668eb</update_guid>
+        <update_guid_history>fb2b913cf71ee1109f58d374e1e668eb:-1119633486</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 15:52:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_rest_message_headers">sys_rest_message_headers</sys_db_object>
+        <sys_id>2451186497be4b70858505117dc1b100</sys_id>
+        <sys_metadata>c11b553c971ee1107a7cfd9fe153af39</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>referrer</sys_name>
+        <sys_package display_value="Axway MFT" source="x_806049_axway_mft">251cdce1970221107a7cfd9fe153afad</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Axway MFT">251cdce1970221107a7cfd9fe153afad</sys_scope>
+        <sys_scope_delete display_value="">46aed021e6a542748e466589e96cd104</sys_scope_delete>
+        <sys_update_name>sys_rest_message_headers_c11b553c971ee1107a7cfd9fe153af39</sys_update_name>
+        <sys_update_version display_value="sys_rest_message_headers_c11b553c971ee1107a7cfd9fe153af39">b32b913c971ee1107a7cfd9fe153afec</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 15:52:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

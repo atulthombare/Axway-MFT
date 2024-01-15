@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="dec771e5974621107a7cfd9fe153afb4" sys_domain="global" table="x_806049_axway_mft_axway_mftaccounts" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-06 22:45:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5ec771e5974621107a7cfd9fe153afb7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_806049_axway_mft_axway_mftaccounts" name="x_806049_axway_mft_axway_mftaccounts" sys_domain="global" view="Default view">dec771e5974621107a7cfd9fe153afb4</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_806049_axway_mft_axway_mftaccounts" sys_domain="global" view="Default view">e430e0e1970221107a7cfd9fe153af92</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-06 22:45:11</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-08 05:33:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5dde900a974221107a7cfd9fe153af84</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_806049_axway_mft_axway_mftaccounts" name="x_806049_axway_mft_axway_mftaccounts" sys_domain="global" view="Default view">dec771e5974621107a7cfd9fe153afb4</sys_ui_form>
+            <sys_ui_section caption="Profile" display_value="Profile" name="x_806049_axway_mft_axway_mftaccounts" sys_domain="global" view="Default view">d1de900a974221107a7cfd9fe153af82</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-08 05:33:31</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-08 05:15:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>01aad006974221107a7cfd9fe153afda</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_806049_axway_mft_axway_mftaccounts" name="x_806049_axway_mft_axway_mftaccounts" sys_domain="global" view="Default view">dec771e5974621107a7cfd9fe153afb4</sys_ui_form>
+            <sys_ui_section caption="Client Profile" display_value="Client Profile" name="x_806049_axway_mft_axway_mftaccounts" sys_domain="global" view="Default view">f0aad006974221107a7cfd9fe153afa0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-08 05:33:31</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-08 05:15:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c5aad006974221107a7cfd9fe153afdd</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_806049_axway_mft_axway_mftaccounts" name="x_806049_axway_mft_axway_mftaccounts" sys_domain="global" view="Default view">dec771e5974621107a7cfd9fe153afb4</sys_ui_form>
+            <sys_ui_section caption="Server Profile" display_value="Server Profile" name="x_806049_axway_mft_axway_mftaccounts" sys_domain="global" view="Default view">38aad006974221107a7cfd9fe153afa2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-08 05:33:31</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-08 05:20:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>41eb9446974221107a7cfd9fe153afd2</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_806049_axway_mft_axway_mftaccounts" name="x_806049_axway_mft_axway_mftaccounts" sys_domain="global" view="Default view">dec771e5974621107a7cfd9fe153afb4</sys_ui_form>
+            <sys_ui_section caption="Encryption/Decryption Certificate" display_value="Encryption/Decryption Certificate" name="x_806049_axway_mft_axway_mftaccounts" sys_domain="global" view="Default view">89eb9446974221107a7cfd9fe153afcf</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-08 05:33:31</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_806049_axway_mft_axway_mftaccounts</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-06 22:45:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dec771e5974621107a7cfd9fe153afb4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_806049_axway_mft_axway_mftaccounts</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Axway MFT" source="x_806049_axway_mft">251cdce1970221107a7cfd9fe153afad</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Axway MFT">251cdce1970221107a7cfd9fe153afad</sys_scope>
+            <sys_update_name>sys_ui_form_sections_dec771e5974621107a7cfd9fe153afb4</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-06 22:45:11</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

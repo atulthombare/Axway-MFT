@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="authentication_type" label="Authentication Type" language="en" table="x_806049_axway_mft_axway_mftaccounts">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>authentication_type</element>
+            <help/>
+            <hint/>
+            <label>Authentication Type</label>
+            <language>en</language>
+            <name>x_806049_axway_mft_axway_mftaccounts</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-06 22:40:24</sys_created_on>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_name>Authentication Type</sys_name>
+            <sys_package display_value="Axway MFT" source="x_806049_axway_mft">251cdce1970221107a7cfd9fe153afad</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Axway MFT">251cdce1970221107a7cfd9fe153afad</sys_scope>
+            <sys_update_name>sys_documentation_x_806049_axway_mft_axway_mftaccounts_authentication_type_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-08 05:32:31</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

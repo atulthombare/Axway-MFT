@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="INSERT_OR_UPDATE">
+        <authentication_type>inherit_from_parent</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <content>{&#13;
+  "name": "ts_ssh_${partner_name}",&#13;
+  "type": "ssh",&#13;
+  "protocol": "ssh",&#13;
+  "transferType": "partner",&#13;
+  "maxConcurrentConnection": 10,&#13;
+  "default": false,&#13;
+  "accessLevel": "BUSINESS_UNIT",&#13;
+  "account": "${partner_name}",&#13;
+&#13;
+  "host": "${remotehost}",&#13;
+  "port": "${remoteport}",&#13;
+  "dmz": "none",&#13;
+  "downloadFolderAdvancedExpressionEnabled": false,&#13;
+  "downloadFolder": "${downloadpath}",&#13;
+  "downloadPatternAdvancedExpressionEnabled": false,&#13;
+  "downloadPatternType": "glob",&#13;
+  "downloadPattern": "*",&#13;
+  "uploadFolderOverridable": false,&#13;
+  "uploadFolder": "${uploadpath}",&#13;
+  "uploadPermissions": 644,&#13;
+&#13;
+  "transferMode": "AUTO_DETECT",&#13;
+  "verifyFinger": false,&#13;
+  "fipsMode": false,&#13;
+  "userName": "${remoteuser}",&#13;
+  "usePassword": true,&#13;
+&#13;
+  "password": "${remotepass}",&#13;
+  "socketTimeout": 300,&#13;
+  "socketBufferSize": 65536,&#13;
+  "socketSendBufferSize": 65536,&#13;
+  "bufferSize": 32768,&#13;
+  "blockSize": 32768,&#13;
+  "tcpNoDelay": true&#13;
+&#13;
+}</content>
+        <function_name>ssh_site</function_name>
+        <http_method>post</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>axwayMFT_Sites [ ssh_site ]</qualified_name>
+        <rest_endpoint>https://208.67.129.10:8444/api/v2.0/sites</rest_endpoint>
+        <rest_message display_value="axwayMFT_Sites">1eeef742978e21107a7cfd9fe153afb4</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-13 21:39:06</sys_created_on>
+        <sys_id>e6fa9977978221107a7cfd9fe153af1a</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>ssh_site</sys_name>
+        <sys_package display_value="Axway MFT" source="x_806049_axway_mft">251cdce1970221107a7cfd9fe153afad</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Axway MFT">251cdce1970221107a7cfd9fe153afad</sys_scope>
+        <sys_update_name>sys_rest_message_fn_e6fa9977978221107a7cfd9fe153af1a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-12 13:46:06</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+</record_update>

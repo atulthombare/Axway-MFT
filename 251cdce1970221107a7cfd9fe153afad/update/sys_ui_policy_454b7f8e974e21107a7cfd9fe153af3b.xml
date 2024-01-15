@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_806049_axway_mft_axway_mftaccounts">communication_profile=server^remote_authentication_type=password^NQcommunication_profile=both^remote_authentication_type=password<item display_value="Server" endquery="false" field="communication_profile" goto="false" newquery="false" operator="=" or="false" value="server"/>
+            <item display_value="Password" endquery="false" field="remote_authentication_type" goto="false" newquery="false" operator="=" or="false" value="password"/>
+            <item display_value="Both" endquery="false" field="communication_profile" goto="false" newquery="true" operator="=" or="false" value="both"/>
+            <item display_value="Password" endquery="false" field="remote_authentication_type" goto="false" newquery="false" operator="=" or="false" value="password"/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>true</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>202</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>false</run_scripts>
+        <script_false><![CDATA[function onCondition() {}]]></script_false>
+        <script_true><![CDATA[function onCondition() {}]]></script_true>
+        <set_values/>
+        <short_description>Server Auth type</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-08 21:36:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>454b7f8e974e21107a7cfd9fe153af3b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Server Auth type</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Axway MFT" source="x_806049_axway_mft">251cdce1970221107a7cfd9fe153afad</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Axway MFT">251cdce1970221107a7cfd9fe153afad</sys_scope>
+        <sys_update_name>sys_ui_policy_454b7f8e974e21107a7cfd9fe153af3b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-14 08:18:11</sys_updated_on>
+        <table>x_806049_axway_mft_axway_mftaccounts</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

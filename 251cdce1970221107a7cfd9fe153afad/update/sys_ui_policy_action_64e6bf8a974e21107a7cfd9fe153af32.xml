@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>true</cleared>
+        <disabled>ignore</disabled>
+        <field>password</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-08 21:17:27</sys_created_on>
+        <sys_id>64e6bf8a974e21107a7cfd9fe153af32</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>password</sys_name>
+        <sys_package display_value="Axway MFT" source="x_806049_axway_mft">251cdce1970221107a7cfd9fe153afad</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Axway MFT">251cdce1970221107a7cfd9fe153afad</sys_scope>
+        <sys_update_name>sys_ui_policy_action_64e6bf8a974e21107a7cfd9fe153af32</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-14 08:18:11</sys_updated_on>
+        <table>x_806049_axway_mft_axway_mftaccounts</table>
+        <ui_policy display_value="Client Communication profile fields">ece67f8a974e21107a7cfd9fe153aff2</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

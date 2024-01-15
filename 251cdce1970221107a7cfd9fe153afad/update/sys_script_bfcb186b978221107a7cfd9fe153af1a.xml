@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_806049_axway_mft_axway_mftaccounts</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>axwayMFT_Create</name>
+        <order>300</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+	
+	var requestBody, responseBody, status, sm;
+	var requestBody1, responseBody1, status1, sm1;
+	var methodname;
+	
+	if ((current.communication_profile == "client") || (current.communication_profile == "both")) {
+		methodname = "create_client";
+	} else {
+		methodname = "create_account";
+	}
+	
+	try {
+	sm = new sn_ws.RESTMessageV2('axwayMFT_partners', methodname); // method for account creation
+		
+	sm.setStringParameter("partner_name", current.partner_name);
+	sm.setStringParameter("type", current.type);
+	sm.setStringParameter("bu", current.business_unit);
+//	sm.setStringParameter("homedir", current.business_unit);
+	sm.setStringParameter("mail", current.email_contact);	
+	sm.setStringParameter("phone", current.phone_contact);
+	sm.setStringParameter("uname", current.user_id);
+	sm.setStringParameter("password", current.password);
+	
+	response = sm.executeAsync();
+	responseBody = response.haveError() ? response.getErrorMessage() : response.getBody();
+	status = response.getStatusCode();
+	} catch(ex) {
+		responseBody = ex.getNessage();
+		status = '500';
+	} finally {
+		requestBody = sm ? sm.getRequestBody():null;
+	}
+	
+	var InfoMessage = [];
+	
+	if ((current.communication_profile == "server") || (current.communication_profile == "both")) {
+
+		sm1 = new sn_ws.RESTMessageV2('axwayMFT_Sites', 'ssh_site'); // method
+
+		sm1.setStringParameter("partner_name", current.partner_name);
+		sm1.setStringParameter("remotehost", current.remote_server);
+		sm1.setStringParameter("remoteport", current.remote_port);
+		sm1.setStringParameter("remoteuser", current.remote_userid);
+		sm1.setStringParameter("remotepass", current.remote_password);
+		sm1.setStringParameter("uploadpath", current.remote_upload_path);
+		sm1.setStringParameter("downloadpath", current.remote_download_path);
+
+		response1 = sm1.execute();
+		responseBody1 = response.haveError() ? response.getErrorMessage() : response.getBody();
+		status1 = response.getStatusCode();
+		
+		InfoMessage.push("*** BI MFT Onboardibng HTTP Status: " + status);
+		InfoMessage.push("*** BI MFT Onboardibng HTTP Response: " + responseBody);
+		InfoMessage.push("*** BI MFT Site Creation HTTP Status: " + status1);
+		InfoMessage.push("*** BI MFT Site Creation HTTP Response: " + responseBody1);
+		gs.info(InfoMessage.join('\n'));		
+		
+	} else {
+		
+		InfoMessage.push("*** BI MFT Onboardibng HTTP Status: " + status);
+		InfoMessage.push("*** BI MFT Onboardibng HTTP Response: " + responseBody);
+		InfoMessage.push("*** BI MFT Onboardibng HTTP Request Body: " + requestBody);
+		gs.info(InfoMessage.join('\n'));	
+	}
+	
+	if (status != 200 && status != 201 && status != 202) {
+		gs.addErrorMessage("Cannot "+current.operation()+" record due due to API call:<br />"+InfoMessage.join('<br /><br />'));
+	} else {
+		gs.addErrorMessage("Partner On-boarded successfully:<br />"+InfoMessage.join('<br /><br />'));
+	}
+ 
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-12 21:24:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bfcb186b978221107a7cfd9fe153af1a</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>axwayMFT_Create</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Axway MFT" source="x_806049_axway_mft">251cdce1970221107a7cfd9fe153afad</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Axway MFT">251cdce1970221107a7cfd9fe153afad</sys_scope>
+        <sys_update_name>sys_script_bfcb186b978221107a7cfd9fe153af1a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 16:16:42</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=bfcb186b978221107a7cfd9fe153af1a"/>
+</record_update>

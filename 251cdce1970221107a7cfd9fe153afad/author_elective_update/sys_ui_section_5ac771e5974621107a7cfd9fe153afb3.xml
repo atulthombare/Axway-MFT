@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Communication Profile" section_id="5ac771e5974621107a7cfd9fe153afb3" sys_domain="global" table="x_806049_axway_mft_axway_mftaccounts" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>communication_profile</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-06 22:45:11</sys_created_on>
+            <sys_id>5ac771e5974621107a7cfd9fe153afc6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Communication Profile" display_value="Communication Profile" name="x_806049_axway_mft_axway_mftaccounts" sys_domain="global" view="Default view">5ac771e5974621107a7cfd9fe153afb3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-06 22:45:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>protocol</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-06 22:45:11</sys_created_on>
+            <sys_id>dac771e5974621107a7cfd9fe153afc6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Communication Profile" display_value="Communication Profile" name="x_806049_axway_mft_axway_mftaccounts" sys_domain="global" view="Default view">5ac771e5974621107a7cfd9fe153afb3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-06 22:45:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>user_id</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-06 22:45:11</sys_created_on>
+            <sys_id>5ec771e5974621107a7cfd9fe153afc6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Communication Profile" display_value="Communication Profile" name="x_806049_axway_mft_axway_mftaccounts" sys_domain="global" view="Default view">5ac771e5974621107a7cfd9fe153afb3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-06 22:45:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-06 22:45:11</sys_created_on>
+            <sys_id>dec771e5974621107a7cfd9fe153afc6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Communication Profile" display_value="Communication Profile" name="x_806049_axway_mft_axway_mftaccounts" sys_domain="global" view="Default view">5ac771e5974621107a7cfd9fe153afb3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-06 22:45:11</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>authentication_type</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-06 22:45:11</sys_created_on>
+            <sys_id>52c771e5974621107a7cfd9fe153afc7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Communication Profile" display_value="Communication Profile" name="x_806049_axway_mft_axway_mftaccounts" sys_domain="global" view="Default view">5ac771e5974621107a7cfd9fe153afb3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-06 22:45:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>password</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-06 22:45:11</sys_created_on>
+            <sys_id>d2c771e5974621107a7cfd9fe153afc7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Communication Profile" display_value="Communication Profile" name="x_806049_axway_mft_axway_mftaccounts" sys_domain="global" view="Default view">5ac771e5974621107a7cfd9fe153afb3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-06 22:45:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Communication Profile</caption>
+            <header>false</header>
+            <name>x_806049_axway_mft_axway_mftaccounts</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-06 22:45:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5ac771e5974621107a7cfd9fe153afb3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_806049_axway_mft_axway_mftaccounts</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Axway MFT" source="x_806049_axway_mft">251cdce1970221107a7cfd9fe153afad</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Axway MFT">251cdce1970221107a7cfd9fe153afad</sys_scope>
+            <sys_update_name>sys_ui_section_5ac771e5974621107a7cfd9fe153afb3</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-06 22:45:11</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Axway MFT">251cdce1970221107a7cfd9fe153afad</application>
+        <file_path/>
+        <instance_id>341c5ad0dbd137809df22f17d4961973</instance_id>
+        <instance_name>dev85045</instance_name>
+        <name>sys_ui_section_5ac771e5974621107a7cfd9fe153afb3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Communication Profile" section_id="5ac771e5974621107a7cfd9fe153afb3" sys_domain="global" table="x_806049_axway_mft_axway_mftaccounts" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>communication_profile</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-04-06 22:45:11</sys_created_on><sys_id>5ac771e5974621107a7cfd9fe153afc6</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Communication Profile" display_value="Communication Profile" name="x_806049_axway_mft_axway_mftaccounts" sys_domain="global" view="Default view">5ac771e5974621107a7cfd9fe153afb3</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-04-06 22:45:11</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>protocol</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-04-06 22:45:11</sys_created_on><sys_id>dac771e5974621107a7cfd9fe153afc6</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Communication Profile" display_value="Communication Profile" name="x_806049_axway_mft_axway_mftaccounts" sys_domain="global" view="Default view">5ac771e5974621107a7cfd9fe153afb3</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-04-06 22:45:11</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>user_id</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-04-06 22:45:11</sys_created_on><sys_id>5ec771e5974621107a7cfd9fe153afc6</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Communication Profile" display_value="Communication Profile" name="x_806049_axway_mft_axway_mftaccounts" sys_domain="global" view="Default view">5ac771e5974621107a7cfd9fe153afb3</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-04-06 22:45:11</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-04-06 22:45:11</sys_created_on><sys_id>dec771e5974621107a7cfd9fe153afc6</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Communication Profile" display_value="Communication Profile" name="x_806049_axway_mft_axway_mftaccounts" sys_domain="global" view="Default view">5ac771e5974621107a7cfd9fe153afb3</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-04-06 22:45:11</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>authentication_type</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-04-06 22:45:11</sys_created_on><sys_id>52c771e5974621107a7cfd9fe153afc7</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Communication Profile" display_value="Communication Profile" name="x_806049_axway_mft_axway_mftaccounts" sys_domain="global" view="Default view">5ac771e5974621107a7cfd9fe153afb3</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-04-06 22:45:11</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>password</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-04-06 22:45:11</sys_created_on><sys_id>d2c771e5974621107a7cfd9fe153afc7</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Communication Profile" display_value="Communication Profile" name="x_806049_axway_mft_axway_mftaccounts" sys_domain="global" view="Default view">5ac771e5974621107a7cfd9fe153afb3</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-04-06 22:45:11</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Communication Profile</caption><header>false</header><name>x_806049_axway_mft_axway_mftaccounts</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-04-06 22:45:11</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>5ac771e5974621107a7cfd9fe153afb3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_806049_axway_mft_axway_mftaccounts</sys_name><sys_overrides/><sys_package display_value="Axway MFT" source="x_806049_axway_mft">251cdce1970221107a7cfd9fe153afad</sys_package><sys_policy/><sys_scope display_value="Axway MFT">251cdce1970221107a7cfd9fe153afad</sys_scope><sys_update_name>sys_ui_section_5ac771e5974621107a7cfd9fe153afb3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-04-06 22:45:11</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-1018217895</payload_hash>
+        <record_name>axway_mftaccounts</record_name>
+        <reverted_from/>
+        <source>a51cdce1970221107a7cfd9fe153afaf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-06 22:45:11</sys_created_on>
+        <sys_id>12c771e5974621107a7cfd9fe153afc9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18758becb810000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-06 22:45:11</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>9ac771e5154621106a4b27a1a4ad7ac8</update_guid>
+        <update_guid_history>9ac771e5154621106a4b27a1a4ad7ac8:-1018217895</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-08 05:15:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>8ab4db4645de4d70aea877d44bcb6110</sys_id>
+        <sys_metadata>5ac771e5974621107a7cfd9fe153afb3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Communication Profile</sys_name>
+        <sys_package display_value="Axway MFT" source="x_806049_axway_mft">251cdce1970221107a7cfd9fe153afad</sys_package>
+        <sys_parent display_value="axway_mftaccounts">2c20a8e5970221107a7cfd9fe153af27</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Axway MFT">251cdce1970221107a7cfd9fe153afad</sys_scope>
+        <sys_scope_delete display_value="">46aed021e6a542748e466589e96cd104</sys_scope_delete>
+        <sys_update_name>sys_ui_section_5ac771e5974621107a7cfd9fe153afb3</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_5ac771e5974621107a7cfd9fe153afb3">12c771e5974621107a7cfd9fe153afc9</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-08 05:15:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

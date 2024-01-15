@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="INSERT_OR_UPDATE">
+        <authentication_type>inherit_from_parent</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <content>{&#13;
+  "name": "${partner_name}",&#13;
+  "uid": "7001",&#13;
+  "gid": "7000",&#13;
+  "type": "user",&#13;
+  "homeFolder": "/usrdata/BU/Axway/${bu}/${partner_name}",&#13;
+  "homeFolderAccessLevel": "PRIVATE",&#13;
+  "notes": "This is demmo user ",&#13;
+  "skin": "Default HTML Template",&#13;
+  "loginRestrictionPolicy": "",&#13;
+  "authByEmail": false,&#13;
+  "disabled": false,&#13;
+  "businessUnit": "${bu}",&#13;
+  "transfersWebServiceAllowed": true,&#13;
+  "managedByCG": false,&#13;
+  "transferType": "${type}",&#13;
+  "accountEncryptMode": "UNSPECIFIED",&#13;
+  "subscriptionFolderDiscovery": "ITERATIVE",&#13;
+  "fileArchivingPolicy": "DEFAULT",&#13;
+  "contact": {&#13;
+    "email": "${mail}",&#13;
+    "phone": "${phone}"&#13;
+  },&#13;
+  "adhocSettings": {&#13;
+    "deliveryMethod": "DEFAULT"&#13;
+      },&#13;
+  "unlicensed": false,&#13;
+  "isUnlicensedUserAllowedToReply": false,&#13;
+  "routingMode": "ignore"&#13;
+ &#13;
+  },&#13;
+  "accountMaintenanceSettings": {&#13;
+    "policy": "default",&#13;
+    "accountDisabledDate": 0,&#13;
+    "accountNotified": false,&#13;
+    "accountPasswordNotified": false,&#13;
+    "accountCertificateNotified": false&#13;
+  }&#13;
+}</content>
+        <function_name>create_account</function_name>
+        <http_method>post</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>axwayMFT_partners [ create_account ]</qualified_name>
+        <rest_endpoint>https://208.67.129.10:8444/api/v2.0/accounts</rest_endpoint>
+        <rest_message display_value="axwayMFT_partners">234d3f02978e21107a7cfd9fe153af94</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-08 21:50:23</sys_created_on>
+        <sys_id>b30e3b42978e21107a7cfd9fe153af45</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>create_account</sys_name>
+        <sys_package display_value="Axway MFT" source="x_806049_axway_mft">251cdce1970221107a7cfd9fe153afad</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Axway MFT">251cdce1970221107a7cfd9fe153afad</sys_scope>
+        <sys_update_name>sys_rest_message_fn_b30e3b42978e21107a7cfd9fe153af45</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-24 12:28:53</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+</record_update>
